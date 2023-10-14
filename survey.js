@@ -21,7 +21,7 @@ rl.question("What's your name? ", (name) => {
           rl.question("Which is your favorite sport? ", (sport) => {
             profile.sport = sport;
             rl.question("What is your superpower? ", (superpower) => {
-              profile.sport = sport;
+              profile.superpower = superpower;
 
               console.log(`Thanks for updating your profile! Here it is: ${JSON.stringify(profile, null, 4)} `);
               rl.close();
